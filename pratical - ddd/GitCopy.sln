@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{89B7EA81-E313-476A-89F3-CC2BC966FEE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitCopy.Domain", "src\GitCopy.Domain\GitCopy.Domain.csproj", "{83B7E5E4-A5E7-4085-8F2A-4083C51E4002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitCopy.Core", "src\GitCopy.Core\GitCopy.Core.csproj", "{53D3B021-CCF8-48A9-8A10-807C432494B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83B7E5E4-A5E7-4085-8F2A-4083C51E4002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83B7E5E4-A5E7-4085-8F2A-4083C51E4002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83B7E5E4-A5E7-4085-8F2A-4083C51E4002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83B7E5E4-A5E7-4085-8F2A-4083C51E4002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53D3B021-CCF8-48A9-8A10-807C432494B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53D3B021-CCF8-48A9-8A10-807C432494B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53D3B021-CCF8-48A9-8A10-807C432494B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53D3B021-CCF8-48A9-8A10-807C432494B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{83B7E5E4-A5E7-4085-8F2A-4083C51E4002} = {89B7EA81-E313-476A-89F3-CC2BC966FEE1}
+		{53D3B021-CCF8-48A9-8A10-807C432494B2} = {89B7EA81-E313-476A-89F3-CC2BC966FEE1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98407462-4673-40F5-949C-AB676595FA23}
+	EndGlobalSection
+EndGlobal

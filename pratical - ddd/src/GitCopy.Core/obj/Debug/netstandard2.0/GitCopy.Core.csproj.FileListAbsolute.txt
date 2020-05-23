@@ -1,0 +1,8 @@
+D:\Desenvolvimento\Estudos\hands-on\pratical - ddd\src\GitCopy.Core\bin\Debug\netstandard2.0\GitCopy.Core.deps.json
+D:\Desenvolvimento\Estudos\hands-on\pratical - ddd\src\GitCopy.Core\bin\Debug\netstandard2.0\GitCopy.Core.dll
+D:\Desenvolvimento\Estudos\hands-on\pratical - ddd\src\GitCopy.Core\bin\Debug\netstandard2.0\GitCopy.Core.pdb
+D:\Desenvolvimento\Estudos\hands-on\pratical - ddd\src\GitCopy.Core\obj\Debug\netstandard2.0\GitCopy.Core.AssemblyInfoInputs.cache
+D:\Desenvolvimento\Estudos\hands-on\pratical - ddd\src\GitCopy.Core\obj\Debug\netstandard2.0\GitCopy.Core.AssemblyInfo.cs
+D:\Desenvolvimento\Estudos\hands-on\pratical - ddd\src\GitCopy.Core\obj\Debug\netstandard2.0\GitCopy.Core.csproj.CoreCompileInputs.cache
+D:\Desenvolvimento\Estudos\hands-on\pratical - ddd\src\GitCopy.Core\obj\Debug\netstandard2.0\GitCopy.Core.dll
+D:\Desenvolvimento\Estudos\hands-on\pratical - ddd\src\GitCopy.Core\obj\Debug\netstandard2.0\GitCopy.Core.pdb
