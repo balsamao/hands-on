@@ -14,6 +14,15 @@ namespace GitCopy.Domain.Entities
             LogId = logId;
             RepositoryName = repositoryName;
             Commits = commits;
+
+            Validate();
+        }
+
+        public override void Validate()
+        {
+            Validation.IsEquals(LogId, Guid.Empty, $"The field LogId value can't be empty.");
+            Validation.IsEmpty(RepositoryName, $"The RepositoryName LogId value can't be empty.");
+            Validation.IsEmpty(Commits, $"The field Commits value can't be empty.");
         }
     }
 }

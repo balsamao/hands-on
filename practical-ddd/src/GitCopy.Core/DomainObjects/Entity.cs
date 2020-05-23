@@ -10,5 +10,7 @@ namespace GitCopy.Core.DomainObjects
         {
             Id = Guid.NewGuid();
         }
+
+        public abstract void Validate();
     }
 }
