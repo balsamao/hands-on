@@ -1,0 +1,24 @@
+D:\Desenvolvimento\Estudos\hands-on\pratical - ddd\src\GitCopy.Domain\bin\Debug\netstandard2.0\GitCopy.Domain.deps.json
+D:\Desenvolvimento\Estudos\hands-on\pratical - ddd\src\GitCopy.Domain\bin\Debug\netstandard2.0\GitCopy.Domain.dll
+D:\Desenvolvimento\Estudos\hands-on\pratical - ddd\src\GitCopy.Domain\bin\Debug\netstandard2.0\GitCopy.Domain.pdb
+D:\Desenvolvimento\Estudos\hands-on\pratical - ddd\src\GitCopy.Domain\bin\Debug\netstandard2.0\GitCopy.Core.dll
+D:\Desenvolvimento\Estudos\hands-on\pratical - ddd\src\GitCopy.Domain\bin\Debug\netstandard2.0\GitCopy.Core.pdb
+D:\Desenvolvimento\Estudos\hands-on\pratical - ddd\src\GitCopy.Domain\obj\Debug\netstandard2.0\GitCopy.Domain.csprojAssemblyReference.cache
+D:\Desenvolvimento\Estudos\hands-on\pratical - ddd\src\GitCopy.Domain\obj\Debug\netstandard2.0\GitCopy.Domain.AssemblyInfoInputs.cache
+D:\Desenvolvimento\Estudos\hands-on\pratical - ddd\src\GitCopy.Domain\obj\Debug\netstandard2.0\GitCopy.Domain.AssemblyInfo.cs
+D:\Desenvolvimento\Estudos\hands-on\pratical - ddd\src\GitCopy.Domain\obj\Debug\netstandard2.0\GitCopy.Domain.csproj.CoreCompileInputs.cache
+D:\Desenvolvimento\Estudos\hands-on\pratical - ddd\src\GitCopy.Domain\obj\Debug\netstandard2.0\GitCopy.Domain.csproj.CopyComplete
+D:\Desenvolvimento\Estudos\hands-on\pratical - ddd\src\GitCopy.Domain\obj\Debug\netstandard2.0\GitCopy.Domain.dll
+D:\Desenvolvimento\Estudos\hands-on\pratical - ddd\src\GitCopy.Domain\obj\Debug\netstandard2.0\GitCopy.Domain.pdb
+D:\Desenvolvimento\Estudos\hands-on\practical-ddd\src\GitCopy.Domain\bin\Debug\netstandard2.0\GitCopy.Domain.deps.json
+D:\Desenvolvimento\Estudos\hands-on\practical-ddd\src\GitCopy.Domain\bin\Debug\netstandard2.0\GitCopy.Domain.dll
+D:\Desenvolvimento\Estudos\hands-on\practical-ddd\src\GitCopy.Domain\bin\Debug\netstandard2.0\GitCopy.Domain.pdb
+D:\Desenvolvimento\Estudos\hands-on\practical-ddd\src\GitCopy.Domain\bin\Debug\netstandard2.0\GitCopy.Core.dll
+D:\Desenvolvimento\Estudos\hands-on\practical-ddd\src\GitCopy.Domain\bin\Debug\netstandard2.0\GitCopy.Core.pdb
+D:\Desenvolvimento\Estudos\hands-on\practical-ddd\src\GitCopy.Domain\obj\Debug\netstandard2.0\GitCopy.Domain.csprojAssemblyReference.cache
+D:\Desenvolvimento\Estudos\hands-on\practical-ddd\src\GitCopy.Domain\obj\Debug\netstandard2.0\GitCopy.Domain.AssemblyInfoInputs.cache
+D:\Desenvolvimento\Estudos\hands-on\practical-ddd\src\GitCopy.Domain\obj\Debug\netstandard2.0\GitCopy.Domain.AssemblyInfo.cs
+D:\Desenvolvimento\Estudos\hands-on\practical-ddd\src\GitCopy.Domain\obj\Debug\netstandard2.0\GitCopy.Domain.csproj.CoreCompileInputs.cache
+D:\Desenvolvimento\Estudos\hands-on\practical-ddd\src\GitCopy.Domain\obj\Debug\netstandard2.0\GitCopy.Domain.csproj.CopyComplete
+D:\Desenvolvimento\Estudos\hands-on\practical-ddd\src\GitCopy.Domain\obj\Debug\netstandard2.0\GitCopy.Domain.dll
+D:\Desenvolvimento\Estudos\hands-on\practical-ddd\src\GitCopy.Domain\obj\Debug\netstandard2.0\GitCopy.Domain.pdb
