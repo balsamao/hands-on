@@ -21,10 +21,29 @@ namespace GitCopy.Domain.Entities
             Validate();
         }
 
+        public void EndTask()
+        {
+            Status = LogStatus.Executed;
+            DateEnd = DateTime.UtcNow;
+        }
+
         public override void Validate()
         {
             Validation.LessThan(DateStart, DateTime.UtcNow.Date, $"The field DateStart value can't be less than {DateTime.UtcNow:yyyy-MM-dd}.");
-            Validation.ExistsBetween(Status, new List<object> { LogStatus.Executed, LogStatus.Scheduled }, $"The field Status value is invalid.");
+            Validation.ExistsBetween(Status, new List<object> { LogStatus.Executed, LogStatus.Running, LogStatus.Scheduled }, $"The field Status value is invalid.");
+        }
+
+        public static class LogFactory
+        {
+            public static Log StartTask()
+            {
+                return new Log(DateTime.Now, true, LogStatus.Running);
+            }
+
+            public static Log ScheduleTask(DateTime dateStart, bool runWhenChanged)
+            {
+                return new Log(dateStart, runWhenChanged, LogStatus.Scheduled);
+            }
         }
     }
 }

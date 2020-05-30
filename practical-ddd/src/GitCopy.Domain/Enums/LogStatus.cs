@@ -3,6 +3,7 @@
     public enum LogStatus
     {
         Scheduled = 0,
-        Executed = 1,
+        Running = 1,
+        Executed = 2,
     }
 }
