@@ -1,7 +1,9 @@
 ﻿using GitCopy.Core.Data;
 using GitCopy.Domain.Entities;
+using LiteDB;
 using System;
 using System.Collections.Generic;
+using System.Linq.Expressions;
 using System.Threading.Tasks;
 
 namespace GitCopy.Domain.Repositories
@@ -10,8 +12,7 @@ namespace GitCopy.Domain.Repositories
     {
         Task Insert(Log log);
         Task InsertDetail(LogDetail logDetail);
-        Task<IEnumerable<Log>> GetAll();
-
+        Task<IEnumerable<Log>> GetAll(Expression<Func<Log, bool>> filter);
         Task<Guid> StartTask();
         Task ScheduleTask(DateTime dateStart, bool runWhenChanged);
     }

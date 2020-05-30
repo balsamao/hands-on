@@ -1,9 +1,11 @@
 ﻿using GitCopy.Domain.Entities;
 using GitCopy.Domain.Repositories;
 using GitCopy.Infra.Data.Context;
+using LiteDB;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Threading.Tasks;
 
 namespace GitCopy.Infra.Repositories
@@ -41,13 +43,13 @@ namespace GitCopy.Infra.Repositories
             await Task.CompletedTask;
         }
 
-        public async Task<IEnumerable<Log>> GetAll()
+        public async Task<IEnumerable<Log>> GetAll(Expression<Func<Log, bool>> filter)
         {
             var dbCollection = _db.GetCollection<Log>(typeof(Log).Name);
             if (dbCollection == null)
                 return new List<Log>();
 
-            return await Task.FromResult(dbCollection.FindAll().AsEnumerable());
+            return await Task.FromResult(dbCollection.Find(filter));
         }
         
         public async Task<Guid> StartTask()

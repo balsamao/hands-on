@@ -8,7 +8,7 @@ namespace GitCopy.Domain.Entities
     public class Log : Entity, IAggregateRoot
     {
         public DateTime DateStart { get; private set; }
-        public DateTime DateEnd { get; private set; }
+        public DateTime? DateEnd { get; private set; }
         public bool RunWhenChanged { get; private set; }
         public LogStatus Status { get; private set; }
 

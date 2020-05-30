@@ -7,6 +7,8 @@ using LiteDB;
 using Moq;
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Linq.Expressions;
 using System.Threading.Tasks;
 using Xunit;
 
@@ -78,21 +80,22 @@ namespace GitCopy.Infra.Tests.Repositories
         }
 
         [Fact]
-        public async Task ShouldGetAllLog()
+        public async Task ShouldFindLog()
         {
+            var filtro = new Mock<Expression<Func<Log, bool>>>();
             var mockResults = new List<Log> { new Log(DateTime.UtcNow, true, LogStatus.Running) };
-            _mockLogCollection.Setup(op => op.FindAll()).Returns(mockResults);
+            _mockLogCollection.Setup(op => op.Find(It.IsAny<Expression<Func<Log, bool>>>(), 0, int.MaxValue)).Returns(mockResults.AsEnumerable());
 
             _mockContext.Setup(c => c.GetCollection<Log>(typeof(Log).Name)).Returns(_mockLogCollection.Object);
 
             var logRepository = new LogRepository(_mockContext.Object);
 
-            var result = await logRepository.GetAll();
+            var result = await logRepository.GetAll(p => p.Id != Guid.Empty);
 
             result.Should().NotBeNull();
             result.Should().NotBeEmpty();
 
-            _mockLogCollection.Verify(c => c.FindAll(), Times.Once);
+            _mockLogCollection.Verify(lnq => lnq.Find(It.IsAny<Expression<Func<Log, bool>>>(), 0, int.MaxValue), Times.Once);
         }
     }
 }
