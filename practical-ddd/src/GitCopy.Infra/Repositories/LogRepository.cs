@@ -60,10 +60,12 @@ namespace GitCopy.Infra.Repositories
             return log.Id;
         }
 
-        public async Task ScheduleTask(DateTime dateStart, bool runWhenChanged)
+        public async Task<Guid> ScheduleTask(DateTime dateStart, bool runWhenChanged)
         {
             var log = Log.LogFactory.ScheduleTask(dateStart, runWhenChanged);
             await Insert(log);
+
+            return log.Id;
         }
 
         public void Dispose()

@@ -14,6 +14,6 @@ namespace GitCopy.Domain.Repositories
         Task InsertDetail(LogDetail logDetail);
         Task<IEnumerable<Log>> GetAll(Expression<Func<Log, bool>> filter);
         Task<Guid> StartTask();
-        Task ScheduleTask(DateTime dateStart, bool runWhenChanged);
+        Task<Guid> ScheduleTask(DateTime dateStart, bool runWhenChanged);
     }
 }
