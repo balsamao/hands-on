@@ -18,6 +18,9 @@ namespace GitCopy.Infra.Tests.Data
         {
             _mockOptions = new Mock<IOptions<SettingsDB>>();
             _path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Tests");
+
+            if (!Directory.Exists(_path))
+                Directory.CreateDirectory(_path);
         }
 
         [Fact]
